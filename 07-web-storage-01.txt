@@ -1,0 +1,14 @@
+1. Apa itu localStorage?
+    Local storage memiliki karakteristik sebagai berikut:
+    1. Menyimpan data tanpa tanggal kadaluarsa.
+    2. Data tidak akan dihapus ketika web browser ditutup dan akan tersedia seterusnya selama kita tidak menghapus data local storage pada web browser.
+    3. Dapat menyimpan data hingga 5MB.
+    4. Hanya dapat menyimpan data string.
+
+
+2. Apa itu cookies?
+    Cookies are strings that have a name field, a value field and additional optional attributes.
+
+3. Apa perbedaan antara localStorage dan sessionStorage?
+    window.localStorage : data yang disimpan tidak memiliki waktu expired
+    window.sessionStorage : data yang disimpan akan hilang jika browes ditutup
