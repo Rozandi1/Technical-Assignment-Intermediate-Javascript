@@ -1,12 +1,9 @@
 function sayHello(user) {
-  const nama = user;
-    return alert (`Hello, ${nama}`);
+    return alert (`Hello, ${user}`);
   }
 
   export default sayHello;
 
-  function greeting(name){
+  export function greeting(name){
     return alert(`Hello, ${name}`);
   }
-
-  export default greeting;

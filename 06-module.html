@@ -38,7 +38,7 @@
       <button type="submit">submit</button>
     </form>
 
-    <script src="./06-module-helpers.js">
+    <script type="module" src="./06-module-helpers.js">
       // IMPORT HERE
       import {sayHello, greeting} from "./06-module-helpers.js";
 
@@ -50,9 +50,9 @@
       const elInputPassword = document.querySelector("#input-password");
 
       // EDIT HERE
-      console.log(sayHello());
-      console.log(greeting());
-
+      sayHello();
+      greeting();
+      
     </script>
   </body>
 </html>
