@@ -1,10 +1,13 @@
 // 1. Apa itu synchronous?
+
+
+// 2. Apa itu asynchronous?
 // An asynchronous operation is one that allows the computer to “move   
 // on” to other tasks while waiting for the asynchronous operation to 
 // complete. Asynchronous programming means that time-consuming 
 // operations don’t have to bring everything else in our programs to a 
 // halt.
-// 2. Apa itu asynchronous?
+
 // 3. Dapatkah kita menerapkan konsep asynchronous pada browser?
 // 4. Apa hasil yang akan tercetak pada baris kode dibawah?
 // 5. Apabila terdapat ketidak samaan antara console.log pertama dan kedua, bisakah kalian memberikan penjelasan mengapa hal tersebut bisa terjadi
