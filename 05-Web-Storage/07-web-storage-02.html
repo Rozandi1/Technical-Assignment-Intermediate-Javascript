@@ -123,6 +123,19 @@
         elCardButton.setAttribute("type", "button");
         elCardButton.innerHTML = "Follow";
 
+        if (isFollowed){
+          elCardButton.innerHTML = 'Unfollow';
+          elCardButton.classList.add('btn', 'btn-success', 'w-100');
+        } else {
+          elCardButton.innerHTML = 'Follow';
+          elCardButton.classList.add('btn', 'btn-primary', 'w-100');
+        }
+
+        isFollowed = localStorage.getItem(profile);
+
+        
+
+
         elCardBody.appendChild(elCardTitle);
         elCardBody.appendChild(elCardButton);
         elCard.appendChild(elCardBody);
