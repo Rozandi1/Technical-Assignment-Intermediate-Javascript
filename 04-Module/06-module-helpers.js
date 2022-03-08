@@ -1,12 +1,16 @@
 function sayHello(user) {
-    return alert (`Hello, ${user}`);
-  }
+  return sayHello;
+}
 
-function greeting(name){
-    return alert(`Hello, ${name}`);
-  }
+export default sayHello();
 
-  export {
-    sayHello,
-    greeting
-  };
+const elFormGreeting = document.querySelector("#form-greeting");
+const btn = elFormGreeting.lastElementChild;
+const elInputName = document.querySelector("#input-name");
+
+btn.onclick = greeting;
+
+export function greeting() {
+  var message = elInputName.value;
+  alert(`Hello, ${message}`);
+}
